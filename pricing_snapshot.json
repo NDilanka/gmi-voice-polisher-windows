@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-11-22",
+  "source": "Live GMI MCP catalog reads on 2026-11-22 via gmi___get_model (google/gemini-3.8-flash) and gmi___search_models (kind=llm).",
+  "scope": "Only the three models used by benchmark_polisher.py.",
+  "models": {
+    "google/gemini-3.8-flash": {
+      "prompt_per_1m_usd": 0.75,
+      "completion_per_1m_usd": 3.75,
+      "discount_to_user": 0.0,
+      "quantization": "fp8",
+      "context_window": 1048576
+    },
+    "zai-org/GLM-5.3-Flash": {
+      "prompt_per_1m_usd": 0.15,
+      "completion_per_1m_usd": 0.5,
+      "discount_to_user": 0.5,
+      "quantization": "fp8",
+      "context_window": 1048576
+    },
+    "deepseek-ai/DeepSeek-V4-Flash": {
+      "prompt_per_1m_usd": 0.14,
+      "completion_per_1m_usd": 0.28,
+      "discount_to_user": 0.35,
+      "quantization": "fp8",
+      "context_window": 1048575
+    }
+  }
+}

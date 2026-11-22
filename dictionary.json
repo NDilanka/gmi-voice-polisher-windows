@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "description": "Terms are exact spellings sent as hints only when they appear in a chunk. Replacements are enforced locally after the cloud reply.",
+  "terms": [
+    "Phonon",
+    "Parakeet",
+    "sherpa-onnx",
+    "GMI Cloud",
+    "vLLM",
+    "PostgreSQL",
+    "PyTorch",
+    "CUDA",
+    "cargo",
+    "Factory Desktop",
+    "GitHub",
+    "WSL",
+    "ONNX Runtime",
+    "Gemini"
+  ],
+  "replacements": [
+    {"match": "work in progress", "replacement": "WIP"}
+  ]
+}

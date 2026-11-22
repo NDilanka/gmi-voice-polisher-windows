@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.venv/
+outputs/
+x-thread-draft.md
+video/raw/
+video/build/
+video/clip_sheets/
+video/qa_frames*/
+video/*.mp4
+*.tmp
